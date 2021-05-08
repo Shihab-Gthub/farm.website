@@ -1,0 +1,38 @@
+body,html{
+  width: 100%;
+  height:100%;
+  font-family: 'Lato', sans-serif;
+  background:url(sheep.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+h1{
+  color: rgb(253, 253, 253);
+  font-size: 4rem;
+  Text-transform:uppercase;
+}
+p{
+  color:black;
+  font-size:28px;
+  font-family: 'Arial black';
+}
+.btn{
+  background-color: rgb(31, 196, 53);
+  border-color:rgb(31, 196, 53) ;
+  border-radius: 100px;
+  padding:15px 25px;
+  font-size: 20px;
+  text-decoration-color: white;
+
+}
+.btn-primary:hover{
+  border-width: 3px;
+  background-color: rgb(2, 194, 2);
+  border-color: rgb(2, 194, 2);
+}
+.contain{
+  width: 500px;
+}
